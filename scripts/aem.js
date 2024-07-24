@@ -492,22 +492,16 @@ function decorateIcons(element, prefix = '') {
   });
 }
 
-
-
-
-
+/**
+ * WILLIAM !!!!!!!!!!!
+ *
+ */
 function decorateTitles(main) {
   console.log('decorateTitles:');
-  
   main.querySelectorAll(':scope > *:([data-aue-model])').forEach((section) => {
     console.log('decorateTitles: --');
   });
 }
-
-
-
-
-
 
 /**
  * Decorates all sections in a container element.
