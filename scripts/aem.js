@@ -497,8 +497,10 @@ function decorateIcons(element, prefix = '') {
 
 
 function decorateTitles(main) {
+  console.log('decorateTitles:');
+  
   main.querySelectorAll(':scope > *:([data-aue-model])').forEach((section) => {
-    console.log('decorateTitles:');
+    console.log('decorateTitles: --');
   });
 }
 
