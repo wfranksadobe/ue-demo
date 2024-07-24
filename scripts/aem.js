@@ -492,6 +492,21 @@ function decorateIcons(element, prefix = '') {
   });
 }
 
+
+
+
+
+function decorateTitles(main) {
+  main.querySelectorAll(':scope > *:([data-aue-model])').forEach((section) => {
+    console.log('decorateTitles:');
+  });
+}
+
+
+
+
+
+
 /**
  * Decorates all sections in a container element.
  * @param {Element} main The container element
@@ -762,6 +777,7 @@ export {
   decorateButtons,
   decorateIcons,
   decorateSections,
+  decorateTitles,
   decorateTemplateAndTheme,
   fetchPlaceholders,
   getMetadata,
