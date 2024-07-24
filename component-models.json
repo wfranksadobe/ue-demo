@@ -41,6 +41,13 @@
             "value": "h6"
           }
         ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "style",
+        "value": "",
+        "label": "Style"
       }
     ]
   },
